@@ -34,6 +34,7 @@ body{
 #cart{
     text-shadow: 0 0 4px black;
     cursor: pointer;
+    font-size: 1.9rem;
 }
 
 #cart-counter{
@@ -42,7 +43,7 @@ body{
     
     position:relative;
     top:-14px;
-    right: 27px;
+    right: 40px;
     
     font-weight:bold;
     font-size: .9rem;
@@ -62,8 +63,8 @@ main{
     display: flex;
 }
 .card{
-    width: 10rem;
-    height: 16rem;
+    width: 13rem;
+    height: 20rem;
     padding: 1rem;
     margin:1rem;
     border-radius: 10px;
@@ -74,6 +75,9 @@ main{
     width: 6rem;
     height: 8rem;
     border-radius: 10px;
+}
+.card-title{
+    font-size: 1.2rem;
 }
 .card-btn{
     padding: .3rem .8rem;
@@ -93,4 +97,8 @@ main{
 
 .card-btn:hover{
     transform:scale(1.1);
+}
+.card-btn:active{
+    background-color: #0071DC;
+    color:#F4F4F4;
 }
